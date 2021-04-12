@@ -14,10 +14,10 @@ function init(){
 
     const fov = 35;
     const aspect = container.clientWidth / container.clientHeight;
-    const near = 0.1;
-    const far = 10000;
+    const near = 1;
+    const far = 1000;
 
-    //Camera setup
+    //Camera setup a taky nastavneí osvětlení
     camera = new THREE.PerspectiveCamera(fov, aspect, near, far);
     camera.position.set(140, 180, 500);
  

@@ -7,9 +7,12 @@
 
 body{
     overflow: hidden;
+    height: 100%;
     background-image: url(./../img/bg2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-
 
 .scene,
 canvas{
@@ -19,23 +22,10 @@ canvas{
     z-index: -1;
 }
 
-/* body .row{
-   border: yellow 4px solid; 
-}
-
-body .iceland{
-   border: red 4px solid; 
-}
-
-.iceland h1{
-  border: violet 4px solid; 
-} */
-
+.container-fluid .iceland h1{
+    letter-spacing: 20px;
+} 
 
 .oddalit2{
     margin-top: 100px;
 }
-
- .container-fluid .iceland h1{
-    letter-spacing: 20px;
-} 
