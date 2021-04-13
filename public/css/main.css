@@ -95,3 +95,20 @@ li{
         font-weight: 5000 !important;
     }
 }
+
+.container-fluid h1{
+    color: rgb(8, 59, 30) !important;
+    font-weight: 700;
+}
+
+.container-fluid .obsahSekce{
+    margin-left: 30px;
+}
+
+.container-fluid .ikonka{
+    font-size: 25px;
+}
+
+.container-fluid .nadpis{
+    font-size: 30px;
+}
