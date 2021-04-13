@@ -2,38 +2,36 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
-.bgbody{
-    height: 35%;
-    background-image: url(./../img/bg4.png);
-}
-
-nav{
+.navColour nav{
     background-color: rgb(8, 59, 30);
+}
+
+.navColour2 nav{
+    background-color: white;
 }
 
 li{
     margin-right: 60px;
 }
 
-.borderActive{
+.navColour .borderActive{
     border-top: 3px solid white !important;
     font-weight: 1000 !important;
 }
 
-.navbar-brand{
-    color: white !important;
-    font-weight: 700;
-    letter-spacing: 7px;
-}
-
-.nav-link{
+.navColour .borderNav{
     font-size: 20px;
     color: white !important;
     font-weight: 500;
-    border-top: 3px solid rgb(8, 59, 30);;
+    border-top: 3px solid rgb(8, 59, 30);
+}
+
+.navColour2 .nav-link{
+    font-size: 20px;
+    color: rgb(8, 59, 30) !important;
 }
 
 .navbar-nav{
@@ -41,14 +39,31 @@ li{
     margin-right: 20px;
 }
 
-.nav-link:hover{
+.navColour .borderNav:hover{
     font-weight: 1000;
-    color:#055325;
     border-top: 3px solid white !important;
+    transition: 0.3s ease-in;
+}
+
+.navColour form{
+    font-weight: 1000;
+    border-top: 3px solid rgb(8, 59, 30);
+}
+
+.navColour2 .nav-link:hover{
+    font-weight: 1000;
+}
+
+.navColour2Divider{
+    border-left: 1px solid rgb(8, 59, 30);
 }
 
 .wallpaper{
-    padding: 20px 0px;
+    background-image: url(./../img/bg1.png);
+}
+
+.wallpaper .informace{
+    padding-top: 20px;
     font-size: 20px;
 }
 
@@ -63,19 +78,19 @@ li{
 }
 
 .author{
-    font-size: 100px;
+    font-size: 30px;
 }
 
-.forest{
-    margin-top: 70px;
+.author span{
+    margin-left: 10px;
 }
 
 @media only screen and (max-width: 1000px){
-    .nav-link:hover{
+    .navColour .borderNav:hover{
         border-top: 3px solid rgb(8, 59, 30) !important;
     }
 
-    .borderActive{
+    .navColour .borderActive{
         border-top: 3px solid rgb(8, 59, 30) !important;
         font-weight: 5000 !important;
     }
