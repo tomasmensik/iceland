@@ -43,9 +43,9 @@ const everything = [
         "dataTarget3":26511,
         "dataName3":"Reservation in km<sup>2</sup>", 
 
-    },
+    }
 
-    {
+/*     {
         "header":"History",
         "headerText":"The recorded history of Iceland began with the settlement by Viking explorers and the people they enslaved from the east, particularly Norway and the British Isles, in the late ninth century. Iceland was still uninhabited long after the rest of Western Europe had been settled. Recorded settlement has conventionally been dated back to 874, although archaeological evidence indicates Gaelic monks from Ireland, known as papar according to sagas, had settled Iceland before that date.",
 
@@ -81,7 +81,7 @@ const everything = [
         "dataTarget3":3,
         "dataName3":"% Other", 
 
-    }
+    } */
 ]
 
 everything.forEach((event) => {
@@ -218,3 +218,111 @@ $(function () {
         $(this).next().toggle(1000);
     });
 });
+
+const history = [
+  {
+    "title":"Settlement and Commonwealth",
+    "icon":`<i class="far fa-address-book fa-3x"></i>`,
+    "p":"was the state existing in Iceland between the establishment of the Alþingi  in 930 and the pledge of fealty to the Norwegian king with the Old Covenant in 1262. "
+  },
+  {
+    "title":"Settlement and Commonwealth",
+    "icon":`<i class="far fa-address-book fa-3x"></i>`,
+    "p":"was the state existing in Iceland between the establishment of the Alþingi  in 930 and the pledge of fealty to the Norwegian king with the Old Covenant in 1262. "
+  },
+  {
+    "title":"Settlement and Commonwealth",
+    "icon":`<i class="far fa-address-book fa-3x"></i>`,
+    "p":"was the state existing in Iceland between the establishment of the Alþingi  in 930 and the pledge of fealty to the Norwegian king with the Old Covenant in 1262. "
+  },
+  {
+    "title":"Settlement and Commonwealth",
+    "icon":`<i class="far fa-address-book fa-3x"></i>`,
+    "p":"was the state existing in Iceland between the establishment of the Alþingi  in 930 and the pledge of fealty to the Norwegian king with the Old Covenant in 1262. "
+  },
+  {
+    "title":"Settlement and Commonwealth",
+    "icon":`<i class="far fa-address-book fa-3x"></i>`,
+    "p":"was the state existing in Iceland between the establishment of the Alþingi  in 930 and the pledge of fealty to the Norwegian king with the Old Covenant in 1262. "
+  },
+  {
+    "title":"Settlement and Commonwealth",
+    "icon":`<i class="far fa-address-book fa-3x"></i>`,
+    "p":"was the state existing in Iceland between the establishment of the Alþingi  in 930 and the pledge of fealty to the Norwegian king with the Old Covenant in 1262. "
+  },
+]
+
+
+const historyModul = [
+  {
+    "title":"Settlement 1",
+    "text":"Settlement 1"
+  },
+  {
+    "title":"Settlement 2",
+    "text":"Settlement 2"
+  },
+  {
+    "title":"Settlement 3",
+    "text":"Settlement 3"
+  },
+  {
+    "title":"Settlement 4",
+    "text":"Settlement 4"
+  },
+  {
+    "title":"Settlement 5",
+    "text":"Settlement 5"
+  },
+  {
+    "title":"Settlement 6",
+    "text":"Settlement 6"
+  },
+]
+
+history.forEach((event) => {
+
+  $("#historyHere").append(`
+
+      <div class="col-xl-3 columns" id="itemFull">
+      <div class="item">
+        <a data-toggle="modal" data-target="#exampleModalLong">
+            <div class="icon">
+              ${event.icon}
+            </div>
+            <h5>${event.title}</h5>
+            <p>${event.p}</p>
+            <span id="learnMore">Learn More</span>
+        </a>
+      </div>
+    </div>
+  `)
+})
+
+$("#historyHere #itemFull").on("click", function() {
+
+  let index =  parseInt($(this).index());
+  console.log(index);
+
+  $("#modulHere").html(`
+
+  <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog"
+  aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">${historyModul[index].title}</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">${historyModul[index].text}</div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+  
+  `)
+})
