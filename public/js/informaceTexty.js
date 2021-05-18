@@ -17,127 +17,26 @@ fetchFunkce("geographyEverything", geography);
 
 function geography(everything){
     everything.forEach((event) => {
-      $(".container-fluid .wrapper").append(`
-
-      <div class="row onlyProCisla">
-      <div class="col-lg-2"></div>
-      <div class="col-lg-8">
-        <div class="nadpisyJavascript" id="nadpisyGeography">
-          <h1>${event.header}</h1>
-          <p>${event.headerText}</p>
-        </div>
-          <div class="textyJavascript">
+      $(".container-fluid .wrapper .textyJavascript").append(`
+            <div>
             <hr>
             <div class="row">
             <div class="obsahSekce">
               <div class="firstRadek">
                 <p>
                   <span><i class="ikonka fas fa-angle-double-right"></i></span>
-                  <span class="nadpis text-success">${event.firstName}</span>
+                  <span class="nadpis text-success">${event.name}</span>
                 </p>
               </div>
               <div class="secondRadek">
-                <p>${event.firstText}</p>
-                <p>${event.firstText2}</p>
-                <p>${event.firstText3}</p>
+                <p>${event.text}</p>
+                <p>${event.gif}</p>
+                <p>${event.text2}</p>
+                <p>${event.text3}</p>
               </div>
             </div>
-          </div>
             <hr>
-          </div>
-          <div class="textyJavascript">
-            <hr>
-            <div class="row">
-            <div class="obsahSekce">
-              <div class="firstRadek">
-                <p>
-                  <span><i class="ikonka fas fa-angle-double-right"></i></span>
-                  <span class="nadpis text-success">${event.secondName}</span>
-                </p>
-              </div>
-              <div class="secondRadek">
-                <p>${event.secondText}</p>
-                <p>${event.secondText2}</p>
-                <p>${event.secondText3}</p>
-              </div>
             </div>
-          </div>
-            <hr>
-          </div>
-          <div class="textyJavascript">
-            <hr>
-            <div class="row">
-            <div class="obsahSekce">
-              <div class="firstRadek">
-                <p>
-                  <span><i class="ikonka fas fa-angle-double-right"></i></span>
-                  <span class="nadpis text-success">${event.thirdName}</span>
-                </p>
-              </div>
-              <div class="secondRadek">
-                <p>${event.thirdText}</p>
-                <p>${event.thirdText2}</p>
-                <p>${event.thirdText3}</p>
-              </div>
-            </div>
-          </div>
-            <hr>
-          </div>
-          <div class="textyJavascript">
-            <hr>
-            <div class="row">
-            <div class="obsahSekce">
-              <div class="firstRadek">
-                <p>
-                  <span><i class="ikonka fas fa-angle-double-right"></i></span>
-                  <span class="nadpis text-success">${event.fourthName}</span>
-                </p>
-              </div>
-              <div class="secondRadek">
-                <p>${event.fourthText}</p>
-                <p>${event.fourthText2}</p>
-                <p>${event.fourthText3}</p>
-              </div>
-            </div>
-          </div>
-            <hr>
-          </div>
-      </div>
-      <div class="col-lg-2"></div>
-    </div>
-    
-    <div class="row text-center my-5 counterCisla">
-    <div class="col-lg-3"></div>
-    <div class="col-lg-2">
-              <div>
-                  <span class="counterHover">
-          ${event.icon}
-        </span>
-                  <div class="counter" data-target="">${event.dataTarget}</div>
-                  <h3>${event.dataName}</h3>
-              </div>
-    </div>
-    <div class="col-lg-2">
-              <div>
-                  <span class="counterHover">
-                  ${event.icon2}
-        </span>
-                  <div class="counter" data-target="">${event.dataTarget2}</div>
-                  <h3>${event.dataName2}</h3>
-              </div>
-    </div>
-    <div class="col-lg-2">
-              <div>
-                  <span class="counterHover">
-                  ${event.icon3}
-        </span>
-                  <div class="counter" data-target="">${event.dataTarget3}</div>
-                  <h3>${event.dataName3}</h3>
-              </div>
-    </div>
-    <div class="col-lg-3"></div>
-  </div>
-
       `);
 
       $(".secondRadek").hide();
