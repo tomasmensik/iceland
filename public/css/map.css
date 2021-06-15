@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.svg{
+    margin-left: 50px;
+}
+
+.container-fluid{
+    color: white !important;
+}
+
+.container-fluid h1{
+    color: white !important;
+    background-color: rgb(8, 59, 30);
+    border-radius: 25px;
+}
+
+.black{
+    color: black;
+}
+
+input[type='checkbox']{ 
+    filter: hue-rotate(270deg);
+}
+
+svg{
+    box-shadow: 2px 2px 30px 1px #888888;
+}
+
+.informaceMapa{
+    color: black;
+}
+
+svg ellipse{
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 1200px){
+svg{
+    display: none;
+}
+}

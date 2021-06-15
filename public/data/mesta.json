@@ -1,0 +1,58 @@
+[
+    {
+       "city":"Egilsstaðir",
+       "peoples":2332,
+       "sign":"<img class=\"img-fluid rounded mx-auto d-block\" src=\"./../img/mapa0.png\" alt=\"\">",
+       "text":"Egilsstadir is located at 65°17′N 14°23′WCoordinates: 65°17′N 14°23′W. The town is young, even by Icelandic standards where urbanization is a fairly recent trend compared to mainland Europe. It was established in 1947 as an effort by the surrounding rural districts recognizing it had become a regional service centre. The town, which is named after Egilsstaðir farm, is near the bridge over Lagarfljót where all the main roads of the region meet, Route 1 as well as the main routes to the Eastern Region. ",
+       "region":"East Region"
+    },
+    {
+       "city":"Akureyri",
+       "peoples":17304,
+       "sign":"<img class=\"img-fluid rounded mx-auto d-block\" src=\"./../img/mapa1.png\" alt=\"\">",
+       "text":"Akureyri is located at 65°41′N 18°06′WCoordinates: 65°41′N 18°06′W and positioned on the west side of the inland end of the fjord Eyjafjörður. It is surrounded by mountains, the highest being Strýta (1,451 m (4,760 ft)); 10 kilometres (6.2 miles) to the west) and Kerling (1,538 m (5,046 ft)) at the head of Glerádalur, 15 km (9.3 mi) to the southwest. It has a narrow coastal strip of flat land; inland is a steep but low hill.",
+       "region":"Northeast Region"
+    },
+    {
+        "city":"Sauðárkrókur",
+        "peoples":2614,
+        "sign":"<img class=\"img-fluid rounded mx-auto d-block\" src=\"./../img/mapa2.png\" alt=\"\">",
+        "text":"Sauðárkrókur is the largest town in Northwest Iceland and the second-largest town on the north coast of Iceland, with a population of 2,612. It is the centre for commerce and services in the district, and an important link in Iceland's food production. The population of Sauðárkrókur has grown steadily in recent years, and its economy is relatively diverse. Economic mainstays are fisheries, dairy production, light industry and broad-based services such as computer and engineering operations, financials, consulting, design and printing.",
+        "region":"Northwest Region"
+     },
+     {
+        "city":"Ísafjörður",
+        "peoples":2736,
+        "sign":"<img class=\"img-fluid rounded mx-auto d-block\" src=\"./../img/mapa3.png\" alt=\"\">",
+        "text":"According to the Landnámabók (the book of settlement), Skutulsfjördur was first settled by Helgi Magri Hrólfsson in the 9th century. In the 16th century, the town grew as it became a trading post for foreign merchants. Witch trials were common around the same time throughout the Westfjords, and many people were banished to the nearby peninsula of Hornstrandir, now a national nature reserve. The town of Ísafjörður was granted municipal status in 1786.",
+        "region":"Westfjords Region"
+     },
+     {
+        "city":"Akranes",
+        "peoples":7411,
+        "sign":"<img class=\"img-fluid rounded mx-auto d-block\" src=\"./../img/mapa4.png\" alt=\"\">",
+        "text":"Akranes was settled in the 9th century by the brothers Þormóður and Ketill, sons of Bresi. They came from Ireland. The town started to form in the mid-17th century as a fishing village. In 1942, it was formally chartered, and in the following years it had the biggest surge in population in its history. Industry has been a big and growing employer: a cement plant has been operated in the town since the 1950s, and an aluminum smelting plant has been in operation near the town since 1998.",
+        "region":"West Region"
+     },
+     {
+        "city":"Reykjavík",
+        "peoples":131136,
+        "sign":"<img class=\"img-fluid rounded mx-auto d-block\" src=\"./../img/mapa5.png\" alt=\"\">",
+        "text":"Reykjavík is believed to be the location of the first permanent settlement in Iceland, which, according to Landnámabók, was established by Ingólfr Arnarson in AD 874. Until the 19th century, there was no urban planning in the city location. The city was founded in 1785 as an official trading town and grew steadily over the following decades, as it transformed into a regional and later national centre of commerce, population, and governmental activities. It is among the cleanest, greenest, and safest cities in the world.",
+        "region":"Capital Region"
+     },
+     {
+        "city":"Keflavík",
+        "peoples":15930,
+        "sign":"<img class=\"img-fluid rounded mx-auto d-block\" src=\"./../img/mapa6.png\" alt=\"\">",
+        "text":"Founded in the 16th century, Keflavík developed on account of its fishing and fish processing industry, founded by Scottish entrepreneurs and engineers. Later its growth continued from flight operations at the Keflavík International Airport which was built by the United States military during the 1940s. The airport used to hold a significant NATO military base and was a vital pre-jet refueling stop for trans-Atlantic commercial air traffic. It now serves as Iceland's main international hub.",
+        "region":"Southern Peninsula Region"
+     },
+     {
+        "city":"Selfoss",
+        "peoples":6934,
+        "sign":"<img class=\"img-fluid rounded mx-auto d-block\" src=\"./../img/mapa7.png\" alt=\"\">",
+        "text":"Selfoss was settled by Þórir Ásason sometime after 1000; however, the Icelandic sagas mention that Ingólfur Arnarson was there during the winter of 873-74 under the Ingólfsfjall mountain, which is west of the Ölfusá river. In the summer of 1891, due to the lobbying of Tryggvi Gunnarsson, a member of the Alþing, the first suspension bridge was built over the Ölfusá. This was a major breakthrough in Icelandic infrastructure. The bridge made the town a logical centre for services for the surrounding agricultural region. The current bridge was built in 1945 after the original structure collapsed.",
+        "region":"South"
+     }
+]

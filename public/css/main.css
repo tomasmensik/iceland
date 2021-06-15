@@ -97,7 +97,7 @@ li{
 }
 
 .container-fluid h1{
-    color: rgb(8, 59, 30) !important;
+    color: rgb(8, 59, 30);
     font-weight: 700;
 }
 
