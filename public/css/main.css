@@ -129,6 +129,13 @@ li{
 
 }
 
+#politicsHere img:hover{
+    transform: scale(1.15);
+    transition: transform .3s;
+    box-shadow: 10px 0px 30px 10px rgb(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
 footer{
     background-color: rgb(9, 70, 35);
 }

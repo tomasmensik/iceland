@@ -138,3 +138,25 @@ function historyModul(historyModul){
     `)
   })
 }
+
+fetchFunkce("politics", politics);
+
+function politics(udaje){
+  $("#politicsHere img").on("click", function() {
+
+    let index =  parseInt($(this).index());
+    console.log(index);
+
+    $(".politicsFullSekce .politicsHereUdaje").html(`
+      <div class="secondRadek">
+      <hr>
+      <p>${udaje[index].text}</p>
+      <p>${udaje[index].gif}</p>
+      <p>${udaje[index].text2}</p>
+      <p>${udaje[index].text3}</p>
+      <hr>
+      </div>
+    `).hide().show(1000);
+  
+  })
+}
