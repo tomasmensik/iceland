@@ -160,3 +160,27 @@ function politics(udaje){
   
   })
 }
+
+
+fetchFunkce("youtube", newsYT);
+
+function newsYT(youtube){
+  youtube.forEach((event) => {
+    $(".newsYT").append(`
+        <div class="row mb-5">
+        <div class="col-lg-12">
+          <div class="youtubeWidth">
+            <h2>${event.h2}</h2>
+            <p> ${event.p}</p>
+          </div>
+          <div>
+          <iframe width="560" height="315" src="${event.odkaz}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+        </div>
+        <hr>
+    `);
+
+    $(".secondRadek").hide();
+});
+}

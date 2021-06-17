@@ -18,6 +18,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./../css/main.css">
   <link rel="stylesheet" href="./../css/modal.css">
+  <link rel="stylesheet" href="./../css/images.css">
 
 
   <title>Document</title>
@@ -92,7 +93,48 @@
     </nav>
   </div>
 
-  <div style="height: 1200px;"></div>
+<div class="row">
+  <div class="col lg-12">
+    <div class="wrapper">
+      <!-- filter Items -->
+      <nav>
+        <div class="items">
+          <span class="item active" data-name="all">All</span>
+          <span class="item" data-name="animals">Animals</span>
+          <span class="item" data-name="scenery">Scenery</span>
+        </div>
+      </nav>
+      <!-- filter Images -->
+      <div id="galleryHere" class="gallery">
+        <div class="image" data-name="scenery"><span><img src="./../img/images/wallpaper.jpg" alt=""></span></div>
+        <div class="image" data-name="animals"><span><img src="./../img/images/animals.jpg" alt=""></span></div>
+        <div class="image" data-name="scenery"><span><img src="./../img/images/wallpaper2.jpg" alt=""></span></div>
+        <div class="image" data-name="animals"><span><img src="./../img/images/animals2.jpg" alt=""></span></div>
+        <div class="image" data-name="scenery"><span><img src="./../img/images/wallpaper3.jpg" alt=""></span></div>
+        <div class="image" data-name="scenery"><span><img src="./../img/images/wallpaper4.jpg" alt=""></span></div>
+        <div class="image" data-name="animals"><span><img src="./../img/images/animals3.jpg" alt=""></span></div>
+        <div class="image" data-name="scenery"><span><img src="./../img/images/wallpaper5.jpg" alt=""></span></div>
+        <div class="image" data-name="animals"><span><img src="./../img/images/animals4.jpg" alt=""></span></div>
+        <div class="image" data-name="scenery"><span><img src="./../img/images/wallpaper6.jpg" alt=""></span></div>
+        <div class="image" data-name="animals"><span><img src="./../img/images/animals5.jpg" alt=""></span></div>
+        <div class="image" data-name="animals"><span><img src="./../img/images/animals6.jpg" alt=""></span></div>
+        <div class="image" data-name="scenery"><span><img src="./../img/images/wallpaper7.jpg" alt=""></span></div>
+        <div class="image" data-name="animals"><span><img src="./../img/images/animals7.jpg" alt=""></span></div>
+        <div class="image" data-name="animals"><span><img src="./../img/images/animals8.jpg" alt=""></span></div>
+        <div class="image" data-name="scenery"><span><img src="./../img/images/wallpaper8.jpg" alt=""></span></div>
+      </div>
+    </div>
+    <!-- fullscreen img preview box -->
+    <div class="preview-box">
+      <div class="details">
+        <span class="title">Image Category: <p></p></span>
+        <span class="icon fas fa-times"></span>
+      </div>
+      <div class="image-box"><img src="" alt=""></div>
+    </div>
+    <div class="shadow"></div>
+  </div>
+</div>
 
   <footer class="text-center text-white">
     <div class="container p-4 pb-0">
@@ -138,7 +180,7 @@
   integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous">
 </script>
 <script src="./../js/informaceTexty.js"></script>
-<script src="./../js/counter.js"></script>
+<script src="./../js/images.js"></script>
 
 </body>
 </html>
