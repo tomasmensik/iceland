@@ -4,8 +4,8 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "postinstall": "nodemon server",
-    "start": "node server"
+    "postinstall": "nodemon server.js",
+    "start": "node server.js"
   },
   "author": "Tomáš Menšík",
   "license": "MIT",
