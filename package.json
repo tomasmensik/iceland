@@ -4,7 +4,6 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "postinstall": "nodemon server.js",
     "start": "node server.js"
   },
   "author": "Tomáš Menšík",
